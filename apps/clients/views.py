@@ -18,6 +18,7 @@ from google.auth.transport       import requests as google_requests
 from rest_framework_simplejwt.tokens import RefreshToken
 from .models                      import Cliente
 import datetime
+from google.auth.transport import requests as google_requests
 
 @api_view(['POST'])
 @permission_classes([AllowAny])
